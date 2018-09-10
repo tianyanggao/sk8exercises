@@ -1,0 +1,11 @@
+.App{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  width:100vw;
+  margin-left: 4vw;
+}
+.daysChooseInput{
+  width:5vw;
+
+}

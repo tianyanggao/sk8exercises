@@ -1,0 +1,458 @@
+/*/* img{
+  background-image: url(../background.png);
+
+} */
+
+.html{
+    width:100%;
+    height:100%;
+
+}
+
+/* .list-container{
+   height:100vh;
+} */
+body{
+   background-color:white ;
+   display:flex;
+   flex-direction:column;
+   flex-wrap:wrap;
+
+
+
+    /* background-image: url(../background.png); */
+
+}
+
+div {
+  height: 100%;
+  width: 100%;
+}
+/* .logo {
+  height:60vw;
+  weight:60vw;
+  padding-top: 20vw;
+  opacity: 0.4;
+} */
+
+.Mainlogo{
+  width:25vh;
+  height:25vh;
+  margin-top: 30vw;
+
+  /* margin-left: 103px; */
+
+
+}
+.mainlogo{
+  width:25vh;
+  height:25vh;
+  margin-top: 15vw;
+  opacity: 0.4;
+}
+
+.splashScreen{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.startscreen{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.startscreen1{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-end;
+  margin-bottom: 10vw;
+
+
+}
+.startscreenp{
+  margin-bottom: 5vw;
+  color:grey;
+}
+
+button{
+  border-radius: 7px;
+  font-size: 6vw;
+  width: 80vw;
+  height: 14vw;
+  letter-spacing: 0.5px;
+  font-weight: lighter;
+}
+
+ .getStarted  {
+   background-color: #4CA0CC;
+   color:white;
+   border-color:#4CA0CC;
+ }
+
+
+.hv:hover{
+  background-color:#4DA0CC;
+  color: white;
+
+}
+.hv {
+  background-color:white ;
+  margin-top: 5vw;
+  color:#4DA0CC;
+  border-color: #4DA0CC;
+  margin-bottom: 8vw;
+}
+.register{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.basicInfor{
+
+  font-size: 20px;
+  width: 100vw;
+  height:45vw;
+  display:flex;
+  flex-direction: column;
+
+
+}
+.loginbasicInfor{
+  font-size: 20px;
+  width: 100vw;
+  margin-top: 8vw;
+  height: 35vw;
+  display:flex;
+  flex-direction: column;
+
+}
+.detailinfor{
+ border-bottom-style: outset;
+ border-bottom-width: thin;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  height: 15vh;
+
+
+}
+.login{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.qwe{
+  height: 5vw;
+text-align: center;
+margin-top: 8vh;
+margin-bottom: 0vw;
+}
+ /*.oneInfor{
+   border-bottom-style: outset;
+   border-bottom-width: thin;
+   border-color: #F5F5F5;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+
+ }
+ .twoInfor{
+   border-bottom-style: outset;
+   border-bottom-width: thin;
+   border-color: #F5F5F5;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+
+ }
+ .threeInfor{
+   border-bottom-style: outset;
+   border-bottom-width: thin;
+   border-color: #F5F5F5;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+
+ } */
+input{
+border: none;
+font-size: 6vw;
+color:#a5a5a5;
+font-weight: lighter;
+font-style: normal;
+margin-left: 3vw;
+width:58vw;
+}
+
+
+
+.forgot-password{
+  text-align: center;
+  height: 5vw;
+}
+
+.forgot-password p{
+  color:#4DA0CC;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 0px;
+
+
+}
+.donot{
+  margin-top: 35vw;
+  margin-bottom: 0vw;
+  color:grey;
+}
+.icons{
+  width:8vw;
+  height:8vw;
+  color: #a5a5a5;
+  margin-left: 15vw;
+
+}
+/* .ResetPasswordButton{
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.ResetPasswordButton button{
+  background-color: blue;
+}
+
+
+.creatAccount button{
+  background-color: white;
+  color:#4DA0CC;
+  margin-top: 30px;
+  border-color: #4DA0CC;
+}
+
+.creatAccount button:hover{
+  background-color: #137AD4;
+  color:white;
+} */
+
+/* .a{
+   margin-top: 150px;
+}
+.a p{
+  margin-top: 30px;
+  color: grey;
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: -20px;
+} */
+/*
+.loginLogo{
+  opacity:0.4;
+
+} */
+
+
+
+.copyRight{
+  text-align: center;
+  font-size: 20px;
+  color:grey;
+  opacity: 0.4;
+  letter-spacing: 0px;
+  font-weight: lighter;
+  margin-top: 35px;
+}
+.resetlogo{
+  opacity: 0.5;
+  width:20vh;
+  height:20vh;
+  margin-top: 10vh;
+
+
+}
+.resetP{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.Reset1 {
+  color:black;
+  font-size: 18px;
+  opacity: 1;
+
+  text-align: center;
+
+}
+.Reset2{
+
+  color:#137AD4;
+  font-size:15px;
+  font-weight: lighter;
+
+}
+.Reset3{
+  color:#137AD4;
+  font-size:15px;
+
+}
+ .NoWorries{
+
+   text-align: center;
+
+   height:30vw;
+ }
+
+.resetemail{
+  font-size: 20px;
+  width: 100vw;
+  height:15vw;
+  display:flex;
+  flex-direction: column;
+
+
+}
+.Reset4{
+
+  border-bottom-style: outset;
+  border-bottom-width: thin;
+
+}
+
+.resetbutton{
+  background-color:white ;
+  margin-top: 5vw;
+  color:#4DA0CC;
+  border-color: #4DA0CC;
+}
+/* .Resetpasswordbutton button{
+  background-color:white ;
+  color:#4DA0CC;
+  border-color: #4DA0CC;
+  margin-top: 40px;
+}
+.Resetpasswordbutton button:hover{
+  background-color: #4DA0CC;
+  color: white;
+} */
+
+.Reset6 p{
+  font-size: 16px;
+  color:grey;
+  text-align: center;
+
+}
+.Registerresetbutton button{
+  background-color: white;
+  color:#4DA0CC;
+  border-color: #4DA0CC;
+
+}
+.Registerresetbutton button:hover{
+  background-color: #4DA0CC;
+  color: white;
+}
+
+.progress-container{
+  height:2%;
+}
+
+.step1{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/* .stepsExample .timeline.am-steps.am-steps-small
+.am-steps-item.am-steps-custom
+.am-steps-head-inner > .am-steps-icon {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #d9dff1;
+}
+.stepsExample .timeline.am-steps.am-steps-small .am-steps-tail {
+  top: 3px;
+  padding: 0 8px;
+  background-color: transparent;
+}
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+}
+.show-info {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+}
+.show-info .progress {
+  margin-right: 5px;
+  width: 100%;
+}
+.pagination-container {
+  margin: 0 15px;
+}
+
+.custom-pagination-with-icon .am-pagination-wrap-btn-prev .am-button-inline{
+  padding-left: 0;
+  padding-right: 10px;
+}
+.custom-pagination-with-icon .am-pagination-wrap-btn-next .am-button-inline{
+  padding-left: 10px;
+  padding-right: 0;
+}
+.arrow-align {
+  display: flex;
+  align-items: center;
+}
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+} */
+
+/* .App{
+  display:flex;
+  flex-direction: row;
+  height:15vw;
+}
+
+.stp{
+  height:20vw;
+  margin-top: 5vw;
+}
+
+.basicinput{
+  height: 20vw;
+  margin-top: 0vw;
+}
+.pag{
+  margin-top: 80vw;
+  height:20vw;
+  margin-bottom: 5vw;
+}
+.musclesize{
+  height: 8vw;
+  margin-top: 5vw;
+  margin-bottom: 30vw;
+}
+
+.text {
+  margin-top: 0vw;
+  height:40vw;
+  font-size: 4vw;
+} */
+.pagination-container{
+  margin-top: 50vh;
+}

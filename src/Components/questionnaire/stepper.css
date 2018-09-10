@@ -1,0 +1,30 @@
+.step-button{
+  width: 28vw;
+  height: 5vh;
+  border-color:#2992E3;
+  border-radius: 0.35rem;
+  background-color: #2992E3;
+  color:white;
+  letter-spacing: 0.1rem;
+  font-size: 1.1rem;
+
+}
+.step-span{
+  margin-left: 15vw;
+  margin-right: 15vw;
+  font-size: 1.3rem;
+
+
+}
+.pag{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  
+
+  margin-left: 3vw;
+
+}
+.page{
+  color:#2992E3;
+}

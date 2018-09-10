@@ -1,0 +1,23 @@
+.your-detail{
+  align-items: center;
+  font-size:3vh;
+  font-weight: bold;
+}
+.your-detail p{
+  color: black;
+
+}
+.step1{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:100vw;
+}
+
+.detail-information{
+  width:100vw;
+  height:75vh;
+}
+/* .stepper{
+  margin-top: 45vh;
+} */
