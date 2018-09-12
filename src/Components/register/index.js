@@ -8,6 +8,10 @@ import'./register.css'
 import { List, InputItem, WingBlank, Button,} from 'antd-mobile';
 import { createForm } from 'rc-form';
 import axios from'axios'
+import YouTube from 'react-youtube';
+
+
+
 class Register extends Component{
   constructor(props){
       super(props)
@@ -40,6 +44,13 @@ class Register extends Component{
     }
 
   render(){
+    const opts = {
+      height: '390',
+      width: '640',
+      playerVars: { // https://developers.google.com/youtube/player_parameters
+        autoplay: 1
+      }
+    };
     return (
       <div className="register">
            <img  className="logo" src={Logo} alt="logo"/>
@@ -80,9 +91,22 @@ class Register extends Component{
 
                 <p> By resigtering, you agree to our terms and conditions</p>
               </div>
+              <div>
+              <YouTube
+       videoId="DoSbvTq-ZjU"
+       opts={opts}
+       onReady={this._onReady}
+     />
+              </div>
+
            </div>
 
          )}
+
+         _onReady(event) {
+   // access to player in all event handlers via event.target
+   event.target.pauseVideo();
+ }
 
 }
 

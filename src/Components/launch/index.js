@@ -17,7 +17,9 @@ class SplashScreen extends Component{
                    <img src={Logo} className="logo" alt="logo"/>
                    <Link to="/StartScreen">
                    <button className= "getStarted" >Get Started</button></Link>
+                  <iframe width='200'frameborder="1"></iframe>
                    <p className="copy-right"> CopyRight  @ 2018 Nepal</p>
+
 
            </div>
   }
